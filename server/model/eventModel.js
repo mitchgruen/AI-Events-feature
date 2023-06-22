@@ -4,8 +4,8 @@ Schema = mongoose.Schema;
 const EventSchema = new Schema({
     event: {type: String},
     location: {type: String},
-    time: {type: String},
-    summary: {type: Number},
+    time: {type: Number},
+    summary: {type: String},
   })
 
   module.exports = mongoose.model('EventSchema', EventSchema);
